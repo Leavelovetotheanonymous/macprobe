@@ -1,0 +1,7 @@
+name: p
+on: push
+jobs:
+  m:
+    runs-on: macos-14
+    steps:
+      - run: sw_vers
